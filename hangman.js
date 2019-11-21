@@ -57,7 +57,9 @@ function guess()
             if (right === wordLetters)
             {
                 $('body').append('<div class="outcome" id="outcomeMsg">You win!</div>');
+                $('body').append('<button onclick="window.location.reload()">Replay</button>');
                 $('body').append('<div class="outcome"><img id="outcomeImg" src="' + './img/spock-win-med.png" alt="spock"></div>');
+
 
             }
         }
@@ -89,6 +91,7 @@ function guess()
         if (wrong === tries)
         {
             $('body').append('<div class="outcome" id="outcomeMsg">You Lose!</div>');
+            $('body').append('<button onclick="window.location.reload()">Replay</button>');
             $('body').append('<div class="outcome"><img id="outcomeImg" src="' + './img/spock-lose-med.png" alt="spock"></div>');
         }
     }

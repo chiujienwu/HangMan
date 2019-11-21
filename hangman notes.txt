@@ -9,3 +9,5 @@ use google fonts for alphabet - complete
 randomize guessword - complete
 
 can try to use fancier hover effects - complete
+
+add restart button - complete
