@@ -1,0 +1,11 @@
+use array to pair words with hints - complete
+
+add sound effects - complete
+
+avoid clicking on the letter twice - complete
+
+use google fonts for alphabet - complete
+
+randomize guessword - complete
+
+can try to use fancier hover effects - complete
