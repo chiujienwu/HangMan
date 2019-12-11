@@ -121,10 +121,10 @@ function showGuessArea()
         if(guessword.charAt(x) === ' ')
         {
             document.write('<div class="guessword" id="' + x + '">&nbsp;&nbsp;</div>');
-            wordLetters--;
+            wordLetters--;  //assess number of letters to guess correctly not counting spaces
         } else {
             document.write('<div class="guessword" id="' + x + '">_&nbsp;</div>');
-            wordLetters++;
+            wordLetters++;  //assess number of letters to guess correctly to later end game
         }
     }
     document.write('<br style="clear: left;" />');
